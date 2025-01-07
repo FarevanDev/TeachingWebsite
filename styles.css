@@ -1,0 +1,93 @@
+/* Separate CSS file: styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #3700b3;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #03dac6;
+    color: #000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+    background: #f9f9f9;
+}
+
+button {
+    background: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #03dac6;
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    background: #6200ea;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #6200ea;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #03dac6;
+}
